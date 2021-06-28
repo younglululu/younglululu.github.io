@@ -8,7 +8,319 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-		Hello World!
+		<div id="wrapper">
+			<header id="header">
+				<div class="inner">
+					<h1 style="color:#fff">Yang Lu's Homepage</h1>
+					<nav>
+						<ul>
+							<li><a href="#menu">Menu</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<nav id="menu">
+				<h2 style="color:#fff">Menu</h2>
+				<ul>
+					<li><a href="#wrapper">Biography</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#services">Academic Services</a></li>
+					<li><a href="#awards">Awards & Honors</a></li>
+					<li><a href="#teaching">Teaching Assistant</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<article id="top" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<center>
+							<span class="image fit">
+								<img src="images/yanglu.jpg" alt="" />
+							</span>
+							<br>
+							Postdoctoral Fellow
+					        <h4>
+					          	<a href="https://www.gs.washington.edu/" target="_blank">Department of Genome Sciences</a>
+					          	<br>
+					          	<a href="http://www.washington.edu/" target="_blank">University of Washington</a>
+					        </h4>
+							<ul class="social">
+								<center>
+									<li><a id="email" href="mailto:ylu465@uw.edu" class="icon solid fa-envelope" title="Email"></a></li>
+									<li><a href="https://github.com/younglululu/" target="_blank" class="icon brands fa-github" title="Github"></a></li>
+									<li><a href="https://scholar.google.com/citations?user=C4CLJQgAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap" title="Google Scholar"></a></li>
+									<li><a href="files/cv.pdf" target="_blank" class="icon fa-address-card" title="Curriculum Vitae"></a></li>
+								</center>
+							</ul>
+							<br>
+						</center>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<header><h2>Biography</h2></header>
+						<div align="left">
+							<p>I am a postdoctoral fellow at the <a href="https://noble.gs.washington.edu/" target="_blank">Noble Research Lab</a> in <a href="http://www.washington.edu/" target="_blank">University of Washington</a>. Previously, I earned my Ph.D. in Computational Biology and Bioinformatics from <a href="http://www.usc.edu/" target="_blank">University of Southern California</a>. Before that, I received my B.S. and M.S. degrees in Computer Science and Engineering from <a href="https://en.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>.
+							</p>
+							<p>
+							The focus of my research is to formulate the biological problems in genomics and proteomics as interesting computational problems and to develop novel machine learning to solve these problems. I am particuarly interested in developing interpretability methods to make sense of complex machine learning models for analysis of complex biologial data. I am also interested in finding both scientifically interesting and statistically confident hypotheses by interpreting these models. I have published papers in prestigious conferences and journals from both computational biology and machine learning side, such as Bioinformatics, Nucleic Acids Research, ISMB, NeurIPS, ICML, etc.
+							</p>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="row aln-center">
+					<div class="col-6 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3 class="icon solid fa-paper-plane"> Research Interests</h3>
+								<ul>
+									<li>Computational genomics</li>
+									<li>Computational proteomics</li>
+									<li>Interpretable machine learning</li>
+									<li>Reproducible (error-controlled) machine learning</li>
+								</ul>
+						</section>
+					</div>
+					<div class="col-6 col-6-medium col-12-small">
+						<section class="box style1">
+							<h3 class="icon solid fa-user-graduate"> Education</h3>
+								<ul>
+									<li> 
+										<b>Ph.D.</b> in Computational Biology and Bioinformatics, 2017  <br>
+										University of Southern California
+									</li>
+									<li> 
+										<b>B.S./M.S.</b> in Computer Science and Engineering, 2010/2013  <br>
+										Shanghai Jiao Tong University
+									</li>
+									
+									
+								</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article id="publications" class="wrapper style2">
+			<div class="container">
+				<header><h2>Selected Publications</h2></header>
+				<ul>
+					<li>
+						<b>YY Lu*</b>, W Guo*, X Xing, WS Noble.
+						<b>DANCE: Enhancing saliency maps using decoys</b>.<br>
+						Proceedings of the 38th International Conference on Machine Learning (<b>ICML</b>), 2021.<br>
+						[<a href="https://arxiv.org/abs/2002.00526" target="_blank">Paper</a>]
+						[<a href="files/dance_slides.pdf" target="_blank">Slides</a>]
+						[<a href="https://bitbucket.org/noblelab/dance" target="_blank">Code</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>, T Yu, G Bonora, WS Noble.
+						<b>ACE: Explaining cluster from an adversarial perspective</b>.<br>
+						Proceedings of the 38th International Conference on Machine Learning (<b>ICML</b>), 2021.<br>
+						[<a href="https://www.biorxiv.org/content/10.1101/2021.02.08.428881" target="_blank">Paper</a>]
+						[<a href="files/ace_slides.pdf" target="_blank">Slides</a>]
+						[<a href="files/ace_poster.pdf" target="_blank">Poster</a>]
+						[<a href="https://bitbucket.org/noblelab/ace" target="_blank">Code</a>]
+						[<a href="http://noble.gs.washington.edu/proj/ACE" target="_blank">Datasets</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>, J Bilmes, RA Rodriguez-Mias, J Villen, WS Noble.
+						<b>DIAmeter: Matching peptides to data-independent acquisition mass spectrometry data</b>.<br>
+						Proceedings of the 29th International Conference on Intelligent Systems for Molecular Biology (<b>ISMB</b>), 2021.<br>
+						<b>Bioinformatics</b>, in press, 2021.<br>
+						[<a href="https://www.biorxiv.org/content/10.1101/2021.01.29.428872" target="_blank">Paper</a>]
+						[<a href="files/diameter_slides.pdf" target="_blank">Slides</a>]
+						[<a href="files/diameter_poster.pdf" target="_blank">Poster</a>]
+						[<a href="http://crux.ms/" target="_blank">Code</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu*</b>,  J Bai*, Y Wang, Y Wang, F Sun.
+						<b>CRAFT: Compact genome Representation towards large-scale Alignment-Free daTabase</b>.<br>
+						<b>Bioinformatics</b>, 37(2):155-161, 2021.<br>
+						[<a href="https://academic.oup.com/bioinformatics/article-abstract/37/2/155/5885078" target="_blank">Paper</a>]
+						[<a href="https://github.com/jiaxingbai/CRAFT" target="_blank">Code</a>]
+						<br><br>
+					</li>
+					<li>
+						J Schreiber*, <b>YY Lu*</b>, WS Noble.
+						<b>Ledidi: Designing genomic edits that induce functional activity</b>.<br>
+						<b>ICML Workshop on Computational Biology</b>, 2020.<br>
+						[<a href="https://www.biorxiv.org/content/10.1101/2020.05.21.109686" target="_blank">Paper</a>]
+						[<a href="https://github.com/jmschrei/ledidi/blob/master/slides/Ledidi%20ENCODE%20AWG%202020.pdf" target="_blank">Slides</a>]
+						[<a href="https://github.com/jmschrei/ledidi/tree/master/tutorials" target="_blank">Tutorial</a>]
+						[<a href="https://github.com/jmschrei/ledidi" target="_blank">Code</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu*</b>, Y Fan*, J Lv, WS Noble.
+						<b>DeepPINK: reproducible feature selection in deep neural networks</b>.<br>
+						Proceedings of the 32nd International Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2018.<br>
+						[<a href="https://proceedings.neurips.cc/paper/2018/file/29daf9442f3c0b60642b14c081b4a556-Paper.pdf" target="_blank">Paper</a>]
+						[<a href="https://www.youtube.com/watch?v=P63aCWa0a8w" target="_blank">Video</a>]
+						[<a href="files/deeppink_poster.pdf" target="_blank">Poster</a>]
+						[<a href="https://github.com/younglululu/DeepPINK" target="_blank">Code</a>]
+						[<a href="https://noble.gs.washington.edu/proj/DeepPINK/" target="_blank">Datasets</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>.
+						<b>Big Data Analytics in Metagenomics: Integration, Representation, Management, and Visualization</b>.<br>
+						<b>Doctoral dissertation</b>, University of Southern California, 2017.<br>
+						[<a href="https://www.proquest.com/openview/d28742f789e37325baa466d61bd8f0d0/1">Proquest</a>]
+						[<a href="files/dissertation_slides.pdf" target="_blank">Slides</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>, J Lv, JA Fuhrman, F Sun.
+						<b>Towards enhanced and interpretable clustering/classification in integrative genomics</b>.<br>
+						<b>Nucleic Acids Research</b>, 45(20):e169, 2017.<br>
+						[<a href="https://academic.oup.com/nar/article/45/20/e169/4097616" target="_blank">Paper</a>]
+						[<a href="files/heterorp_slides.pdf" target="_blank">Slides</a>]
+						[<a href="https://github.com/younglululu/Hetero-RP" target="_blank">Code</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>, K Tang, J Ren, JA Fuhrman, MS Waterman, F Sun.
+						<b>CAFE: aCcelerated Alignment-FrEe sequence analysis</b>.<br>
+						<b>Nucleic Acids Research</b>, 45(W1):W554-W559, 2017.<br>
+						[<a href="https://academic.oup.com/nar/article/45/20/e169/4097616" target="_blank">Paper</a>]
+						[<a href="https://github.com/younglululu/CAFE" target="_blank">Code</a>]
+						[<a href="https://www.dropbox.com/s/o2d6z5pze8ih7iw/CAFE_v071017.zip?dl=0" target="_blank">Executable</a>]
+						<br><br>
+					</li>
+					<li>
+						<b>YY Lu</b>, T Chen, JA Fuhrman, F Sun.
+						<b>COCACOLA: binning metagenomic contigs using sequence COmposition, read CoverAge, CO-alignment and paired-end read LinkAge</b>.<br>
+						<b>Bioinformatics</b>, 33(6):791-798, 2017.<br>
+						[<a href="https://academic.oup.com/bioinformatics/article/33/6/791/2525584" target="_blank">Paper</a>]
+						[<a href="files/cocacola_slides.pdf" target="_blank">Slides</a>]
+						[<a href="files/cocacola_poster.pdf" target="_blank">Poster</a>]
+						[<a href="https://github.com/younglululu/COCACOLA" target="_blank">Code</a>]
+						<br><br>
+					</li>
+				</ul>
+				<div align="left"> *= co-first author</div>
+				<div align="left"> Full publication list in <a href="https://scholar.google.com/citations?user=C4CLJQgAAAAJ&hl=en" target="_blank">Google Scholar</a></div>
+				<!--<div align="left"><i class="far fa-envelope"></i> denotes corresponding author.</div>-->
+			</div>
+		</article>
+		
+		<!--<article id="publications" class="wrapper style2">
+			<div class="container">
+				<header><h2>Talks</h2></header>
+			</div>
+		</article>-->
+
+		<article id="experiences" class="wrapper style3">
+			<div class="container medium">
+				<header><h2>Experiences</h2></header>
+				<ul>
+					<li>
+						2018/01 -- Present. <b>Postdoctoral Fellow</b>. University of Washington<br>
+						Advisor: <a href="https://noble.gs.washington.edu/~wnoble/" target="_blank">Prof. William Stafford Noble</a>
+						<br>
+					</li>
+					<li>
+						2015/08 -- 2017/07. <b>Research Assistant</b>. University of Southern California<br>
+						Advisor: <a href="https://dornsife.usc.edu/labs/fsun" target="_blank">Prof. Fengzhu Sun</a>
+						<br>
+					</li>
+					<li>
+						2011/06 -- 2011/11. <b>Research Intern</b>. <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank">Microsoft Research Asia</a>, Beijing, China<br>
+						Advisor: <a href="https://www.microsoft.com/en-us/research/people/qlin/" target="_blank">Dr. Qingwei Lin</a>
+						<br>
+					</li>
+					<li>2010/11 -- 2011/05. <b>Software Engineer Intern</b>. Microsoft Bing, Shanghai, China<br></li>
+					<li>2010/04 -- 2011/08. <b>Software Engineer Intern</b>. Tencent, Shanghai, China<br></li>
+					<li>2009/08 -- 2009/11. <b>Software Engineer Intern</b>. Ericsson, Shanghai, China<br></li>
+					
+				</ul>
+			</div>
+		</article>
+
+		<article id="services" class="wrapper style2">
+			<div class="container medium">
+				<header><h2>Academic Services</h2></header>
+				<ul>
+					<li>
+						<b>Journal Reviewer</b>:
+						Nature Methods, 
+						Nature Communications, 
+						Genome Biology, 
+						Nucleic Acids Research,
+						Bioinformatics, 
+						Briefings in Bioinformatics, 
+						BMC Bioinformatics, 
+						Frontiers in Genetics
+					</li>
+					<li>
+						<b>Conference Reviewer</b>:
+						 NeurIPS, ICML, ICLR, AISTATS, AAAI, RECOMB, ISMB, APBC
+					</li>
+					
+				</ul>
+			</div>
+		</article>
+
+		<article id="awards" class="wrapper style3">
+			<div class="container medium">
+				<header>
+					<h2>Awards & Honors</h2>
+				</header>
+				<ul>
+					<li>2013 -- 2015. <b>Provost's Fellowship</b>. University of Southern California</li>
+					<li>2010 -- 2013. <b>Graduate Fellowship</b>. Shanghai Jiao Tong University</li>
+				</ul>
+			</div>
+		</article>
+
+		<article id="teaching" class="wrapper style2">
+			<div class="container medium">
+				<header>
+					<h2>Teaching Assistant</h2>
+				</header>
+				<ul>
+					<li>
+						2015. <b> Statistics for the Biological Sciences</b>. <br>
+						Department of Biological Science, University of Southern California.
+					</li>
+					<li>
+						2012. <b> Introduction to Artificial Intelligence</b>. <br>
+						Department of Computer Science and Engineering, Shanghai Jiao Tong University.
+					</li>
+					<li>
+						2011. <b> Introduction to Bioinformatics</b>. <br>
+						Department of Computer Science and Engineering, Shanghai Jiao Tong University.
+					</li>
+				</ul>
+			</div>
+		</article>
+
+		<article id="miscellaneous" class="wrapper style4">
+			<div class="container medium">
+				
+				<footer>
+					<ul id="copyright">
+						<li>© Yang Lu. All rights reserved.</li>
+						<li>Theme adapted from <a href="https://lileipisces.github.io/" target="_blank">Lei Li</a> </li>
+						<li>Last update: Jun. 28, 2021</li>
+					</ul>
+				</footer>
+			</div>
+		</article>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 		
 	</body>
 </html>
